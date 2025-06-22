@@ -1,0 +1,300 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#22343d;;
+background-color: white;
+}
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.section-subtitle {
+    max-width: 542px;
+    margin: 0 auto 40px;
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: center; 
+}
+/*Header*/
+.navigation{
+    display: flex;
+justify-content: space-between;
+}
+
+.logo-text{
+    padding-left: 16px;
+}
+.logo{
+display: flex;
+font-weight: 700;
+font-size: 30px;
+line-height: 0.93;
+color: #173a56;
+justify-content: flex-start;
+padding: 22px 0;
+align-items: center;
+}
+.navigation-list{
+    display: flex;
+    padding: 26px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    gap: 30px;
+}
+
+.navigation-btn{
+    display: flex;
+    padding: 19px 0;
+    gap: 21px;
+}
+.navigation-btn-in {
+border: 1px solid #bcd0e5;
+border-radius: 4px;
+width: 105px;
+text-align: center;
+padding: 9px 24px;
+font-weight: 600;
+font-size: 16px;
+color: #173a56;
+background-color: #fff;
+}
+
+
+.navigation-btn-up{
+background: #02897a;
+border-radius: 4px;
+width: 113px;
+text-align: center;
+padding: 9px 24px;
+font-weight: 600;
+font-size: 16px;
+ color: #fff;
+}
+.navigation-list-item:active,
+.navigation-list-item:hover{
+    font-weight: 600;
+}
+/*Section hero*/
+
+
+.hero-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #22343d;
+}
+.container-hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    }
+
+    .hero-text{
+        flex-direction: column;
+        align-self: center;
+    }
+    .hero-title{
+margin-bottom: 18px;
+    }
+    .hero-subtitle{
+       font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #22343d; 
+        margin-bottom: 45px;
+    }
+    .hero-btn{
+        border-radius: 4px;
+        width: 178px;
+        background-color: #02897a;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        padding: 14px 41px;
+        margin-right: 31px;
+    }
+    .hero-link{
+        font-weight: 600;
+            font-size: 16px;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #02897a;
+    }
+        
+
+ 
+/*Section Price*/
+.section-price {
+    padding-top: 85px;
+}
+
+.title-price {
+    font-size: 34px;
+}
+
+.subtitle-price {
+    line-height: 1.5;
+}
+
+.price-list {
+    display: flex;
+    gap: 72px;
+}
+
+.price-card {
+    padding: 32px;
+    border-radius: 8px;
+    width: calc((100% - 144px) / 3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    text-align: center;
+
+    transition: 250ms linear;
+}
+
+.price-card-title {
+    margin-bottom: 8px;
+
+    font-size: 24px;
+    line-height: 1.66;
+}
+
+.price-card-text {
+    margin-bottom: 16px;
+
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5;
+}
+
+.price-card-price {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.card-price-part {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.card-price-part span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #02897a;
+}
+
+.price-card-list {
+    margin-bottom: 30px;
+}
+
+.price-card-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: 0.01em;
+}
+
+.price-card-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.price-card-btn {
+    border-radius: 8px;
+    min-width: 139px;
+    height: 44px;
+    background-color: #02897a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.price-card:hover,
+.price-card:focus-within {
+    color: #fff;
+    background-color: #02897a;
+}
+
+.price-card:hover .price-card-price,
+.price-card:hover .card-price-part span,
+.price-card:focus-within .price-card-price,
+.price-card:focus-within .card-price-part span {
+    color: #fff;
+}
+
+.price-card:hover .card-price-part,
+.price-card:focus-within .card-price-part {
+    color: #e0e0e0;
+}
+
+.price-card:hover .price-card-btn,
+.price-card-btn:focus {
+    color: #02897a;
+    background-color: #fff; 
+}
+/*End Section Price*/
