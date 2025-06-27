@@ -126,7 +126,7 @@ font-size: 16px;
 .hero-title{
     font-weight: 700;
     font-size: 40px;
-    line-height: 150%;
+    line-height: 1.5;
     color: #22343d;
 }
 .container-hero{
@@ -145,7 +145,7 @@ margin-bottom: 18px;
     .hero-subtitle{
        font-weight: 400;
         font-size: 18px;
-        line-height: 156%;
+        line-height: 1.6;
         color: #22343d; 
         margin-bottom: 45px;
     }
@@ -174,6 +174,8 @@ margin-bottom: 18px;
     text-align: center;
     color: #22343d;
     margin-bottom: 50px;
+    width: 539px;
+
    
 }
 .benefits-list{
@@ -188,9 +190,192 @@ margin-bottom: 18px;
     margin-bottom: 13px;
 }
 
+.container-benefits{
+  justify-items: center; 
+ 
+}
+.benefit-btn{
 border-radius: 4px;
 width: 175px;
-height: 53px;
+background: #02897a;
+font-weight: 700;
+font-size: 16px;
+color: #fff;
+padding: 14px 32px;
+}
+/*Section Management*/
+
+.container-management{
+    display: flex;
+    gap: 84px;
+    align-items: center;
+}
+.management-content{
+    flex-direction: column;
+    
+}
+.management-subtitle {
+    font-weight: 600;
+        font-size: 16px;
+        color: #22343d;
+        margin-bottom: 8px;
+}
+
+.management-title {
+    font-weight: 700;
+        font-size: 32px;
+        color: #22343d;
+        margin-bottom: 25px;
+}
+
+.section-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.62;
+        color: #22343d;
+        margin-bottom: 25px;
+}
+
+.management-list {
+    margin-top: 5px;
+}
+
+.management-list-item-title { 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+/* Section Experts*/
+
+.container-experts {
+justify-items: center;
+}
+
+.experts-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+
+.expert-subtitle {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        color: #22343d;
+        width: 542px;
+        margin-bottom: 40px;
+}
+
+.expert-presentation {
+    justify-items: center;
+}
+
+.experts-list {
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: space-between;
+column-gap: 92px;
+}
+
+.experts-list-item {
+width: calc((100% - 92px) / 2);
+display: flex;
+gap: 20px;
+margin-bottom: 25px;
+justify-content: center;
+align-items: center;
+}
+.expert-comment{
+    font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #2f281e;
+}
+
+.expert-photo{
+    border-radius: 100%;
+    width: 98px;
+    height: 98px;
+}
+.contact-experts {
+   
+        font-weight: 700;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+            
+.contact-experts-btn{
+   border-radius: 4px;
+    width: 216px;
+    height: 53px;
+    background: #02897a;  
+    margin-top: 25px;
+    padding: 14px 30px;
+}
+/*Section strategy*/
+
+.strategy-title {
+    font-weight: 700;
+        font-size: 34px;
+        color: #22343d;
+        margin-bottom: 10px;
+}
+
+.strategy-subtitle {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 162%;
+        color: #22343d;
+        width: 465px;
+        margin-bottom: 40px;
+}
+
+.strategy-card-list {
+display: flex;
+gap: 30px;
+}
+.card-strategy{
+   
+}
+.strategy-list-item {
+    width: calc((100% - 60px) / 3);
+     border: 1px solid #dedede;
+    border-radius: 8px;
+    
+}
+
+.strategy-image {
+    border-radius: 8px 8px 0 0;
+        width: 350px;
+        height: 185px;
+}
+
+.strategy-image-subscribe {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #22343d;
+        margin-top: 24px;
+        margin-bottom: 12px;
+        margin-left: 24px;
+}
+.autor{
+    font-weight:700;
+}
+.strategy-image-title {
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 167%;
+        color: #22343d;
+        margin: 0 27px 40px 27px;
+        
+}
 /*Section Price*/
 .section-price {
     padding-top: 85px;
