@@ -105,7 +105,6 @@ color: #173a56;
 background-color: #fff;
 }
 
-
 .navigation-btn-up{
 background: #02897a;
 border-radius: 4px;
@@ -122,7 +121,6 @@ font-size: 16px;
 }
 /*Section hero*/
 
-
 .hero-title{
     font-weight: 700;
     font-size: 40px;
@@ -134,7 +132,6 @@ font-size: 16px;
     justify-content: space-between;
     gap: 48px;
     }
-
     .hero-text{
         flex-direction: column;
         align-self: center;
@@ -160,13 +157,14 @@ margin-bottom: 18px;
         margin-right: 31px;
     }
     .hero-link{
-        font-weight: 600;
-            font-size: 16px;
-            text-decoration: underline;
-            text-decoration-skip-ink: none;
-            color: #02897a;
+    font-weight: 600;
+    font-size: 16px;
+    color: #02897a;
     }
-        
+    .hero-link:hover, .hero-link:focus{
+        text-decoration: underline;
+
+    }
 /*Section benefits*/
 .benefits-title{
     font-weight: 700;
@@ -175,8 +173,6 @@ margin-bottom: 18px;
     color: #22343d;
     margin-bottom: 50px;
     width: 539px;
-
-   
 }
 .benefits-list{
     display: flex;
@@ -189,7 +185,6 @@ margin-bottom: 18px;
 .benefits-item-title{
     margin-bottom: 13px;
 }
-
 .container-benefits{
   justify-items: center; 
  
@@ -211,8 +206,7 @@ padding: 14px 32px;
     align-items: center;
 }
 .management-content{
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .management-subtitle {
     font-weight: 600;
@@ -220,26 +214,22 @@ padding: 14px 32px;
         color: #22343d;
         margin-bottom: 8px;
 }
-
 .management-title {
     font-weight: 700;
         font-size: 32px;
         color: #22343d;
         margin-bottom: 25px;
 }
-
 .section-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.62;
-        color: #22343d;
-        margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    margin-bottom: 25px;
 }
-
 .management-list {
     margin-top: 5px;
 }
-
 .management-list-item-title { 
     font-weight: 600;
     font-size: 16px;
@@ -276,9 +266,9 @@ justify-items: center;
 }
 
 .experts-list {
-    display: flex;
-    flex-wrap: wrap;
- justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 column-gap: 92px;
 }
 
@@ -292,9 +282,9 @@ align-items: center;
 }
 .expert-comment{
     font-weight: 500;
-        font-size: 16px;
-        text-align: center;
-        color: #2f281e;
+    font-size: 16px;
+    text-align: center;
+    color: #2f281e;
 }
 
 .expert-photo{
@@ -303,11 +293,10 @@ align-items: center;
     height: 98px;
 }
 .contact-experts {
-   
         font-weight: 700;
-            font-size: 16px;
-            color: #fff;
-            cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
         }
             
 .contact-experts-btn{
@@ -329,20 +318,18 @@ align-items: center;
 
 .strategy-subtitle {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 162%;
-        color: #22343d;
-        width: 465px;
-        margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 465px;
+    margin-bottom: 40px;
 }
 
 .strategy-card-list {
 display: flex;
 gap: 30px;
 }
-.card-strategy{
-   
-}
+
 .strategy-list-item {
     width: calc((100% - 60px) / 3);
      border: 1px solid #dedede;
@@ -401,20 +388,17 @@ gap: 30px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
     background: #fff;
     text-align: center;
-
     transition: 250ms linear;
 }
 
 .price-card-title {
     margin-bottom: 8px;
-
     font-size: 24px;
     line-height: 1.66;
 }
 
 .price-card-text {
     margin-bottom: 16px;
-
     font-family: 'Montserrat', sans-serif;
     line-height: 2.5;
 }
@@ -439,7 +423,6 @@ gap: 30px;
     display: flex;
     gap: 4px;
     flex-direction: column;
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -505,3 +488,415 @@ gap: 30px;
     background-color: #fff; 
 }
 /*End Section Price*/
+/*Section rewiev*/
+.container-rewiev {
+    justify-items: center;
+}
+
+.rewiev-title {
+    font-weight: 700;
+        font-size: 32px;
+        line-height: 1.78;
+        letter-spacing: 0.01em;
+        color: #22343d;
+        margin-bottom: 10px;
+}
+
+.rewiev-subtitle {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #22343d;
+        width: 537px;
+        margin-bottom: 40px;
+}
+
+.rewiev-list {
+    display: flex;
+    gap: 64px;
+}
+
+.rewiev-list-item {
+    width: calc((100% - 128px) / 3);
+    padding: 28px 26px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+
+.rewiev-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.01em;
+        color: #737373;
+}
+
+.rewiever-container {
+    display: flex;
+    margin-top: 16px;
+    gap: 14px;
+}
+.rewiever{
+    flex-direction: column;
+}
+
+.rewiever-photo { 
+    border-radius: 100%;
+    stroke-width: 1px;
+    stroke: #bdbdbd;}
+
+.rewiever-name {
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        color: #02897a;
+}
+
+.rewiever-position {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.01em;
+        color: #252b42;
+}
+/*Join section*/
+.container-join {
+    display: flex;
+    border-radius: 32px;
+        width: 968px;
+        background: #02897a;
+        justify-content: center;
+        padding: 0 46px;
+        justify-self: center;
+}
+.title-and-btn{
+    flex-direction: column;
+    gap: 46px;
+    margin-bottom: 56px;
+}
+.join-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #fff;
+    width: 510px;
+    margin-top: 49px;
+    margin-bottom: 46px;
+}
+.get-this-btn {
+        border-radius: 8px;
+        width: 150px;
+        background: #fff;
+        font-weight: 600;
+            font-size: 20px;
+            color: #02897a;
+            padding: 10px 34px;
+ }
+ /* Footer*/
+ .container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-bottom: 10px;
+ }
+ .logo-footer{
+    padding: 0;
+ }
+ .social-icon {
+    display: flex;
+    margin-top: 18px;
+    gap: 16px;
+ }
+ .nav-footer-title { 
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #22343d;
+        margin-bottom: 8px;
+ }
+
+ .footer-nav-list {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 2.19;
+        color: #22343d;
+ }
+
+ .title-form{
+    width: 280px;
+    margin-bottom: 30px;
+ }
+ .form{
+    border: 1px solid #bcd0e5;
+        border-radius: 4px;
+        width: 325px;
+        height: 48px;
+        margin-bottom: 25px;
+ }
+ .footer-btn{
+    border-radius: 4px;
+        width: 131px;
+        height: 39px;
+        background: #02897a;
+        font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+            padding: 8px 15px;
+ }
+ .copyrhight {
+    justify-self: center;
+    margin-bottom: 40px;
+ }
+/*Customers*/
+/* Section our clients*/
+.clients-title{
+    font-weight: 700;
+        font-size: 40px;
+        color: #22343d;
+        margin-bottom: 50px;
+        justify-self: center;
+}
+.clients-logo-list{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+}
+/* Section choose*/
+.section-choose{
+    background: #f5f5f5;
+}
+.choose-title{
+    font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+        color: #22343d;
+        margin-bottom: 50px;
+}
+.choose-benefits-list {
+    display: flex;
+    gap: 30px;
+}
+
+.choose-benefits-list-items {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #dedede;
+        border-radius: 10px;
+        padding: 32px 37px 34px 37px;
+}
+
+.choose-list-title {
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 1.37;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #22343d;
+        margin-bottom: 16px;
+        margin-top: 32px;
+}
+
+.choose-list-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.69;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #22343d;
+}
+/* How it work*/
+.how-it-work-title {
+    font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+        color: #22343d;
+        margin-bottom: 72px;
+}
+
+.step-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.step-list-item {
+    display: flex;
+    gap: 80px;
+    width: 1026px;
+}
+.container-step{
+    align-content: center;
+}
+.step-num {
+    font-weight: 500;
+        font-size: 20px;
+        color: #22343d;
+        margin-bottom: 16px;
+}
+
+.step-name {
+    font-weight: 600;
+        font-size: 24px;
+        color: #22343d;
+        margin-bottom: 16px;
+}
+
+.step-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #22343d;
+}
+
+.container-btn-get-in{
+    border-radius: 8px;
+        width: 224px;
+        background: #02897a;
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+        padding: 11px 15px;
+        font-family: "Montserrat",
+            sans-serif;
+            justify-self: center;
+            margin-top: 69px;
+}
+/*Section offers*/
+
+.section-offers {
+    background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+.offers-title {
+    font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        color: #22343d;
+        width: 537px;
+        justify-self: center;
+        margin-bottom: 93px;
+}
+
+.offers-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offers-list-item {
+    justify-items: center;
+}
+
+.offers-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000;
+margin-bottom: 16px;
+}
+
+.offers-ben-list-item {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 1.78;
+        text-align: center;
+        color: #22343d;
+}
+
+.offers-ben-list-subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #000;
+    margin-top: 12px;
+}
+
+/*Pricing*/
+/*Section pricing*/
+.pricing-section-name {
+    font-weight: 600;
+        font-size: 24px;
+        color: #22343d;
+        text-align: center;
+        margin-bottom: 32px;
+}
+
+.pricing-title {
+    font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+        color: #22343d;
+        margin-bottom: 16px;
+}
+
+.pricing-subtitle {
+    font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #22343d;
+        margin-bottom: 49px;
+}
+/* section enterpricing*/
+.section-enterprice{
+    background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+.section-enterprice-name {
+    font-weight: 600;
+        font-size: 24px;
+        color: #22343d;
+        text-align: center;
+        margin-bottom: 16px;
+}
+
+.enterprice-title {
+text-align: center;
+        font-weight: 700;
+        font-size: 34px;
+        color: #22343d;
+        margin-bottom: 8px;
+}
+
+.enterprice-subtitle {
+    font-weight: 400;
+        font-size: 18px;
+        color: #22343d;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.btn-enterpricing{
+    margin: 0;
+}
+/* Effects*/
+
+.section-effects-title {
+    font-weight: 700;
+        font-size: 34px;
+        color: #22343d;
+        text-align: center;
+        margin-bottom: 56px;
+}
+.container-effects{
+    display: flex;
+    gap: 60px;
+}
+.effects-list {}
+
+.effects-list-item:not(:last-child) {
+margin-bottom: 32px;
+}
+
+.effects-list-item-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #22343d;}
+
+.effects-list-item-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #22343d;
+}
